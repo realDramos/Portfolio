@@ -1,0 +1,28 @@
+/*need background, color, font-family, font-size, height, margin, padding, text-align and pseudo-classes*/
+html, body{
+  height: 100%;
+}
+.dark-background{ /* used to change the color and such for header and footer*/
+  background-color: #0077B6;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 50` px;
+}
+header p{ /*change the size of the text below the main header*/
+  font-size: 15px;
+}
+header h1{ /*make the top of the header closer to the top of the web page*/
+  margin-top: 0px;
+}
+main{ /*sets the text to match the header and footer*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+main h1, h2, h3{ /* makes the headers centered*/
+  text-align: center;
+}
+
+a:link {color: blue;}
+a:visted{color: purple;}
+a:hover{color: red;}
+a:active{color: pink;}
